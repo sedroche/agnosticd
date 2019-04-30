@@ -7,6 +7,9 @@ inventory_hosts_file: inventories/hosts.template
 release_tag: release-1.3.0
 webapp_namespace: webapp
 self_signed_certs_enabled: True
+amq_streams: True
+integreatly_operator: True
+integreatly_installation_type: workshop
 openshift_master_config_path: /etc/origin/master/master-config.yaml
 admin_username: admin@example.com
 admin_password: Password1
